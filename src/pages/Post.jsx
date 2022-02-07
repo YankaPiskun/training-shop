@@ -3,7 +3,7 @@ import PostItem from "../components/PostItem";
 import '../styles/App.css';
 
 function Post() {
-    const [posts, setPosts] = useState([
+    const [posts] = useState([
       {id:1, title:'First', body: 'descr'},
       {id:2, title:'First2', body: 'descr'},
       {id:3, title:'First3', body: 'descr'},
